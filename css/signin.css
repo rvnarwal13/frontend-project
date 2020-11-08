@@ -1,0 +1,8 @@
+body {
+  background-color: #2193b0;
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+.signinform {
+  margin: 100px 37%;
+}

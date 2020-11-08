@@ -1,0 +1,35 @@
+button {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+}
+button p {
+  flex-basis: 95%;
+  font-size: 14px;
+  color: hsl(240, 6%, 50%);
+}
+button img {
+  flex-basis: 3%;
+  margin: 3px 3px;
+}
+button:hover {
+  background: darkslategray;
+}
+.accordion {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.active,
+.accordion:hover {
+  background-color: white;
+}
+.panel {
+  background-color: white;
+  margin: 10px 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

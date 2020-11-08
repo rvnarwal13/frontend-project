@@ -1,0 +1,36 @@
+.leftpanel {
+  text-align: center;
+  position: sticky;
+}
+.leftpanel img {
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+  border-radius: 50%;
+}
+.otherdetails > * {
+  padding: 10px;
+}
+.otherdetails > button {
+  background-color: grey;
+  padding: 8px 24px;
+  border-radius: 8px;
+  margin: 8px 0px;
+}
+#comment {
+  padding: 8px 24px;
+}
+.logout > button {
+  background-color: rgb(128, 0, 38);
+  letter-spacing: 4px;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 8px 24px;
+  transition: 0.5s;
+}
+.logout > button:hover {
+  padding: 8px 30px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  background-color: rgb(2, 202, 202);
+}

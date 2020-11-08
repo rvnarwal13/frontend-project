@@ -1,0 +1,31 @@
+.moments {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.moments > img {
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+  border-radius: 50px;
+  border: 2px solid rgb(240, 65, 65);
+}
+.createpost {
+  text-align: center;
+}
+.createpost > button {
+  border: none;
+  border-radius: 10px;
+  padding: 8px 24px;
+  max-width: 100%;
+  background-color: rgb(202, 68, 63);
+  transition: 0.5s;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgb(70, 58, 58);
+}
+.createpost > button:hover {
+  padding: 8px 30px;
+  background-color: rgb(226, 80, 148);
+  text-shadow: 2px 2px 8px rgb(70, 58, 58);
+}
